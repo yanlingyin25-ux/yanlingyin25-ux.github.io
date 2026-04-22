@@ -8,7 +8,7 @@ permalink: /about/
     <h1>关于</h1>
 </div>
 
-<div class="post-content" markdown="1">
+<div class="post-content">
 
 ## 背景
 
