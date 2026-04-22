@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小天 | Personal Page</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 680px;
+            width: 100%;
+            text-align: center;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            margin: 0 auto 2rem;
+            border: 3px solid rgba(255,255,255,0.1);
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+        .tagline {
+            color: #888;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        .bio {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            text-align: left;
+            line-height: 1.8;
+        }
+        .bio p { margin-bottom: 1rem; }
+        .bio p:last-child { margin-bottom: 0; }
+        .vectors {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .vector-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.5rem 1rem;
+            transition: all 0.3s ease;
+        }
+        .vector-card:hover {
+            background: rgba(255,255,255,0.06);
+            transform: translateY(-2px);
+        }
+        .vector-card .icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .vector-card h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+        .vector-card p {
+            font-size: 0.8rem;
+            color: #888;
+        }
+        .links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .links a {
+            color: #667eea;
+            text-decoration: none;
+            padding: 0.6rem 1.2rem;
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+        .links a:hover {
+            background: rgba(102, 126, 234, 0.1);
+            border-color: #667eea;
+        }
+        footer {
+            margin-top: 3rem;
+            font-size: 0.8rem;
+            color: #555;
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .bio { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">🚀</div>
+        <h1>小天</h1>
+        <p class="tagline">系统思维 · 财富自由 · AI 原生</p>
+        
+        <div class="bio">
+            <p>
+                华为工程师出身，后创立猎头公司，现任文旅综合公司运营总监。
+                跨越工程、人才市场、线下商业三重语境，信奉第一性原理、逆向思考与芒格的人类误判心理学。
+            </p>
+            <p>
+                目前建设一人公司模式，三个核心矢量：美股期权交易现金流、AI SaaS 创业、
+                Bilibili/YouTube 内容创作。关注半导体/AI行业链与应用层机遇。
+            </p>
+        </div>
+        
+        <div class="vectors">
+            <div class="vector-card">
+                <div class="icon">📈</div>
+                <h3>美股期权</h3>
+                <p>BPS Put-Selling 策略<br>NVDA / TSM / GOOGL</p>
+            </div>
+            <div class="vector-card">
+                <div class="icon">🤖</div>
+                <h3>AI SaaS</h3>
+                <p>猎头顾问个人数据资产管理<br>用户访谈验证期</p>
+            </div>
+            <div class="vector-card">
+                <div class="icon">🎥</div>
+                <h3>内容创作</h3>
+                <p>AI + 财富自由研究<br>记录系统思考过程</p>
+            </div>
+        </div>
+        
+        <div class="links">
+            <a href="https://github.com/yanlingyin25-ux" target="_blank">GitHub</a>
+            <a href="https://t.me/kevenyin_bot" target="_blank">Telegram</a>
+            <a href="mailto:yanlingyin25@gmail.com">邮箱</a>
+        </div>
+        
+        <footer>
+            <p>Built with 🚀 First Principles · Inversion · Pattern Recognition</p>
+            <p style="margin-top: 0.5rem; font-size: 0.7rem;">© 2026 小天. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
