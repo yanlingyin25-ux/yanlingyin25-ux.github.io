@@ -1,14 +1,8 @@
 ---
-layout: default
+layout: page
 title: 关于
 permalink: /about/
 ---
-
-<div class="page-header">
-    <h1>关于</h1>
-</div>
-
-<div class="post-content">
 
 ## 背景
 
@@ -35,5 +29,3 @@ permalink: /about/
 - GitHub: [yanlingyin25-ux](https://github.com/yanlingyin25-ux)
 - Telegram: [@kevenyin_bot](https://t.me/kevenyin_bot)
 - 邮箱: yanlingyin25@gmail.com
-
-</div>
