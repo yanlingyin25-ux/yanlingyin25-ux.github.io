@@ -1,0 +1,52 @@
+# Site settings
+title: "小天"
+name: "小天"
+description: "系统思维 · 财富自由 · AI 原生"
+url: "https://yanlingyin25-ux.github.io"
+baseurl: ""
+repository: "yanlingyin25-ux/yanlingyin25-ux.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# Author
+author:
+  name: "小天"
+  email: "yanlingyin25@gmail.com"
+  bio: "华为工程师出身，后创立猎头公司，现任文旅综合公司运营总监。信奉第一性原理、逆向思考与芒格的人类误判心理学。"
+
+# Social
+social:
+  github: yanlingyin25-ux
+  telegram: kevenyin_bot
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
