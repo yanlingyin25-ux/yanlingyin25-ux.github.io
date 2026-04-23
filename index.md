@@ -4,7 +4,7 @@ layout: landing
 
 <div class="hero">
   <h1>雁铃</h1>
-  <p class="tagline">系统思维 · 财富自由 · AI 原生</p>
+  <p class="tagline">系统思维 · 财富自由 · AI Native</p>
 </div>
 
 <div class="intro">
