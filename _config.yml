@@ -26,6 +26,9 @@ author:
   name: "雁铃"
   email: "yanlingyin25@gmail.com"
 
+header_pages:
+  - blog.md
+
 defaults:
   - scope:
       path: ""
