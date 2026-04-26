@@ -72,7 +72,7 @@ theme_mode:
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/_data/image.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 social_preview_image:
